@@ -1,7 +1,9 @@
-CREATE TABLE IF NOT EXISTS ufo_sightings (
+DROP TABLE IF EXISTS ufo_sightings;
+
+CREATE TABLE ufo_sightings (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
-    date_time TEXT,
-    city TEXT,
+    date_time TEXT,                 -- stored as ISO 8601 string (YYYY-MM-DD HH:MM:SS)
+    city_area TEXT,
     state TEXT,
     country TEXT,
     ufo_shape TEXT,
@@ -13,7 +15,4 @@ CREATE TABLE IF NOT EXISTS ufo_sightings (
     longitude REAL
 );
 
-CREATE INDEX IF NOT EXISTS idx_ufo_state ON ufo_sightings(state);
-CREATE INDEX IF NOT EXISTS idx_ufo_country ON ufo_sightings(country);
-CREATE INDEX IF NOT EXISTS idx_ufo_shape ON ufo_sightings(ufo_shape);
-CREATE INDEX IF NOT EXISTS idx_ufo_date_time ON ufo_sightings(date_time);
+-- Indexes are created after ingestion for faster load.
