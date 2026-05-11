@@ -1,0 +1,6 @@
+pandas
+matplotlib
+sqlalchemy
+pytest
+pytest-cov
+coverage
