@@ -81,6 +81,8 @@ To make these patterns interpretable, the analysis examines the share of encount
 
 These results suggest that the dataset primarily reflects brief observational events with a long tail of outliers, consistent with human perception and recall effects rather than uniformly long encounters.
 
+Encounter duration is used here as a quantitative proxy for perception and recall, acknowledging that the free‑text sighting descriptions themselves were not directly analyzed in this exercise.
+
 ---
 
 ## Limitations & Bias
