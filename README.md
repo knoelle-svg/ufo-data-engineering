@@ -11,8 +11,17 @@ The goal is to emphasize clarity, reproducibility, and intentional design decisi
 
 ---
 
+
 ## Data Source
-The dataset used in this project is the **TidyTuesday UFO Sightings dataset (2019-06-25)**, which contains over 80,000 reported UFO sightings worldwide. The data is publicly available, machine-readable, and can be downloaded without authentication directly from GitHub.
+
+The dataset used in this project is the **TidyTuesday UFO Sightings dataset (2019‑06‑25)**, which contains over 80,000 reported UFO sightings worldwide.
+
+- **Source repository:** https://github.com/rfordatascience/tidytuesday/tree/main/data/2019/2019-06-25 [1](https://github.com/rfordatascience/tidytuesday/tree/main/data/2019/2019-06-25)
+- **Raw CSV download:** https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-06-25/ufo_sightings.csv [2](https://github.com/rfordatascience/tidytuesday/blob/main/data/2019/2019-06-25/ufo_sightings.csv)
+- **Approximate raw size:** ~14 MB uncompressed [2](https://github.com/rfordatascience/tidytuesday/blob/main/data/2019/2019-06-25/ufo_sightings.csv)
+
+This dataset was selected because it is publicly accessible without authentication, large enough to support meaningful analytical exploration, and well‑suited for demonstrating relational modeling and analytical querying over semi‑structured real‑world reports.
+```
 
 ---
 
@@ -81,6 +90,12 @@ To reduce early-era sparsity and examine modern reporting patterns, sightings we
 
 ## Future Work
 Future work could incorporate international or government-sourced reporting datasets to evaluate whether observed trends persist across alternative data collection systems.
+
+---
+
+## Entity–Relationship Diagram
+docs/er_diagram_ufo_sightings.png
+
 
 ---
 
