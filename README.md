@@ -99,11 +99,12 @@ docs/er_diagram_ufo_sightings.png
 
 ---
 
+
 ## How to Run
+
 Run all commands from the project root.
 
 ```bash
 pip install -r requirements.txt
-python ingest.py
-python analysis.py 
+python run_all.py
 ```
